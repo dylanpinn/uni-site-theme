@@ -1,0 +1,17 @@
+{
+  "name": "uni-site-theme",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pinny87/uni-site-theme",
+  "authors": [
+    "Dylan Pinn <dylan.pinn@gmail.com>"
+  ],
+  "description": "Hugo theme for Uni notes.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
