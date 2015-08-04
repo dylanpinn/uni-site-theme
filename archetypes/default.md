@@ -1,0 +1,4 @@
+---
+subjects: ["subject"]
+classes: ["class"]
+---
