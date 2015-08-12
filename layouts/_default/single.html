@@ -11,6 +11,7 @@
 
   <link href="/vendor/flat-ui/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
   <link href="/vendor/flat-ui/dist/css/flat-ui.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/vendor/github-markdown-css/github-markdown.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/github.min.css">
   <link href="/css/main.css" rel="stylesheet">
 
@@ -33,7 +34,9 @@
 
 <body>
   <div class="container">
-    {{ .Content }}
+    <div class="markdown-body">
+      {{ .Content }}
+    </div>
   </div>
 
   <script src="/vendor/flat-ui/dist/js/vendor/jquery.min.js"></script>
