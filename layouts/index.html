@@ -1,18 +1,21 @@
-{{ partial "header" }}
+{{ partial "head" }}
 <body>
-  <section id="menu">
-    <ul>
+  <main id="menu" class="ui container">
+    <div class="ui item stackable ui tabular menu tabs menu">
       {{ range $key, $taxonomy := .Site.Taxonomies.subjects }}
-      <li>{{ $key }}</li>
-      <ul>
-        {{ range $taxonomy.Pages }}
-        <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-        {{ end }}
-      </ul>
+        <a class="item" data-tab="{{ $key }}">{{ $key }}</a>
       {{ end }}
-    </ul>
-  </section>
-
+    </div>
+    {{ range $key, $taxonomy := .Site.Taxonomies.subjects }}
+      <div class="ui tab" data-tab="{{ $key}}">
+        {{ range $taxonomy.Pages }}
+          <div class="ui segment" hugo-nav="{{ .RelPermalink}}">
+            <a href="{{ .Permalink}}"> {{ .LinkTitle }} </a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </main>
   {{ partial "footer" }}
 </body>
 </html>
