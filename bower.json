@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "flat-ui": "~2.2.2",
-    "github-markdown-css": "~2.0.9"
+    "github-markdown-css": "~2.0.9",
+    "highlightjs": "~8.7.0"
   }
 }
