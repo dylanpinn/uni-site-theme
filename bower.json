@@ -15,8 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "flat-ui": "~2.2.2",
-    "github-markdown-css": "~2.0.9",
-    "highlightjs": "~8.7.0"
+    "highlightjs": "~8.7.0",
+    "semantic-ui": "~2.0.8"
   }
 }
