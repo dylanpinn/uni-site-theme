@@ -9,3 +9,7 @@ main {
 .ui.menu {
   margin-top: 0;
 }
+
+.ui.item.menu .item {
+  text-transform: uppercase;
+}
