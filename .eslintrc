@@ -2,7 +2,8 @@
   "env": {
     "jquery": true,
     "browser": true,
-    "es6": true
+    "es6": true,
+    "amd": true
   },
   "ecmaFeatures": {
     "modules": true
