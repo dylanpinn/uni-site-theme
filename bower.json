@@ -15,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "highlightjs": "~8.7.0",
-    "semantic-ui": "~2.1.3"
+    "highlightjs": "~8.8.0",
+    "semantic-ui": "~2.1.4"
   }
 }
