@@ -13,3 +13,7 @@ main {
 .ui.item.menu .item {
   text-transform: uppercase;
 }
+
+li > p {
+  margin-bottom: 0;
+}
