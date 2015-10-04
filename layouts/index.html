@@ -1,9 +1,9 @@
 {{ partial "head" }}
 <body>
   <main id="menu" class="ui container">
-    <div class="ui item stackable ui tabular menu tabs menu">
+    <div class="ui tabular menu">
       {{ range $key, $taxonomy := .Site.Taxonomies.subjects }}
-        <a class="item" data-tab="{{ $key }}">{{ $key }}</a>
+        <a class="item header" data-tab="{{ $key }}" style="text-transform: uppercase;">{{ $key }}</a>
       {{ end }}
     </div>
     {{ range $key, $taxonomy := .Site.Taxonomies.subjects }}
