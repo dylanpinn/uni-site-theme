@@ -17,3 +17,7 @@ main {
 li > p {
   margin-bottom: 0;
 }
+
+code, pre {
+  font-family: Consolas,Monaco,'Andale Mono',monospace;
+}
