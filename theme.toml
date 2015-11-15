@@ -1,21 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/spf13/hugoThemes#themetoml for an example
-
 name = "Uni Notes Theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
+licenselink = "https://github.com/pinny87/uni-site-theme/blob/master/LICENSE.md"
+description = "Hugo Theme for my University Notes site"
+homepage = "http://uni.dylanpinn.com/"
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.13
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Dylan Pinn"
+  homepage = "dylanpinn.com"
