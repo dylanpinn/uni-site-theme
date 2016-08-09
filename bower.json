@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "highlightjs": "~8.9.1",
-    "semantic-ui": "~2.1.5"
+    "semantic-ui": "~2.1.5",
+    "MathJax": "^2.6.1"
   }
 }
